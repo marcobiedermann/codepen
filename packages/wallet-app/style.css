@@ -1,0 +1,32 @@
+* {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b9c7c8;
+  font-family: Raleway, sans-serif;
+  min-block-size: 100vh;
+  margin: 0;
+}
+
+.align {
+  display: grid;
+  place-items: center;
+}
+
+.grid {
+  display: flex;
+  gap: 3em;
+}
+
+.iphone {
+  background-color: #fff;
+  block-size: 685px;
+  border-radius: 2em;
+  padding: 2em;
+  inline-size: 316px;
+}
